@@ -46,3 +46,43 @@ nav a:hover{
     font-size:24px;
     color:yellow;
 }
+.hero{
+    text-align:center;
+    padding:30px 20px;
+}
+
+.hero h1{
+    color:#00ff99;
+    font-size:36px;
+}
+
+.hero p{
+    color:#cccccc;
+    font-size:18px;
+}
+
+.live-card{
+    width:90%;
+    max-width:650px;
+    margin:25px auto;
+    background:#1f1f1f;
+    padding:20px;
+    border-radius:16px;
+    border:2px solid #00b894;
+    text-align:center;
+}
+
+.live-tag{
+    display:inline-block;
+    background:red;
+    color:white;
+    padding:6px 12px;
+    border-radius:20px;
+    font-weight:bold;
+    margin-bottom:10px;
+}
+
+.status{
+    color:#00ff99;
+    font-weight:bold;
+}
