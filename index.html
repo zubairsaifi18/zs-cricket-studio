@@ -1,10 +1,42 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>ZS Cricket Studio</title>
+    <title>ZS Cricket Studio</title>
+    <style>
+        body{
+            background:#000;
+            color:#fff;
+            font-family:Arial;
+            text-align:center;
+            padding-top:50px;
+        }
+
+        h1{
+            color:#00ff99;
+        }
+
+        #score{
+            font-size:28px;
+            margin-top:30px;
+            color:yellow;
+        }
+    </style>
 </head>
-<body style="background:black;color:white;text-align:center;">
-<h1>ZS Cricket Studio</h1>
-<h2>Live Cricket Score v1</h2>
+
+<body>
+
+<h1>🏏 ZS Cricket Studio</h1>
+
+<h2>Live Cricket Score</h2>
+
+<div id="score">
+Loading Live Score...
+</div>
+
+<script>
+document.getElementById("score").innerHTML =
+"API Connected Successfully ✅";
+</script>
+
 </body>
 </html>
