@@ -1,109 +1,122 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Live Scores</title>
+
+<title>Live Scores - ZS Cricket Studio</title>
+
 <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
 <header>
-🏏 Live Cricket Scores
+
+<div class="logo">
+🏏 ZS Cricket Studio
+</div>
+
+<nav>
+<a href="index.html">Home</a>
+<a href="live.html" class="active">Live</a>
+<a href="matches.html">Matches</a>
+<a href="points.html">Points Table</a>
+<a href="news.html">News</a>
+</nav>
+
 </header>
-<div class="card">
 
-<h2 style="text-align:center;">🏏 Current Batsmen</h2>
+<div class="container">
+
+<div class="live-card">
+
+<span class="live-badge">🔴 LIVE</span>
+
+<h1>🇮🇳 India vs England 🏴</h1>
+
+<h2>186/4 (18.2)</h2>
+
+<p>Current Run Rate : <b>10.22</b></p>
+
+<p>Target : 221</p>
+
+<p>Need : 35 Runs from 10 Balls</p>
+
+</div>
+
+<h2 class="section-title">🏏 Current Batsmen</h2>
+
+<div class="players">
 
 <div class="player-card">
 
-<img src="https://placehold.co/120x120" class="player-img">
+<img src="https://placehold.co/180x180">
 
-<div class="player-info">
-<h2>🏏 Virat Kohli</h2>
-<p><b>Runs:</b> 72 (45)</p>
-<p>4s: 8 | 6s: 2 | SR: 160.0</p>
+<h3>Virat Kohli</h3>
+
+<p>72 (45)</p>
+
+<p>4s : 8 | 6s : 2</p>
+
+<p>Strike Rate : 160.0</p>
+
 </div>
-
-</div>
-
-<hr style="margin:20px 0;border:1px solid #444;">
 
 <div class="player-card">
 
-<img src="https://placehold.co/120x120" class="player-img">
+<img src="https://placehold.co/180x180">
 
-<div class="player-info">
-<h2>🏏 Shubman Gill</h2>
-<p><b>Runs:</b> 54 (39)</p>
-<p>4s: 5 | 6s: 1 | SR: 138.4</p>
-</div>
+<h3>Shubman Gill</h3>
 
-</div>
+<p>54 (39)</p>
 
-</div>
+<p>4s : 5 | 6s : 1</p>
 
-
-<div class="card">
-
-<h2 style="text-align:center;">🎯 Current Bowler</h2>
-
-<div class="player-card">
-
-<img src="https://placehold.co/120x120" class="player-img">
-
-<div class="player-info">
-<h2>🎯 Jofra Archer</h2>
-<p><b>Overs:</b> 3.2</p>
-<p><b>Wickets:</b> 2</p>
-<p><b>Economy:</b> 8.4</p>
-</div>
-
-</div>
-
-</div>
-<div class="card">
-
-<h2 style="text-align:center;">📊 Match Summary</h2>
-
-<p><b>Batting Team:</b> India 🇮🇳</p>
-<p><b>Score:</b> 186/4 (18.2)</p>
-<p><b>Run Rate:</b> 10.22</p>
-<p><b>Target:</b> Batting First</p>
-<p><b>Last Wicket:</b> 120/4</p>
-
-<br>
-
-<h3 style="text-align:center;">Recent Balls</h3>
-
-<div style="display:flex;justify-content:center;gap:10px;flex-wrap:wrap;margin-top:15px;">
-
-<div style="width:45px;height:45px;background:#2196f3;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:bold;">1</div>
-
-<div style="width:45px;height:45px;background:#4caf50;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:bold;">4</div>
-
-<div style="width:45px;height:45px;background:#f44336;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:bold;">W</div>
-
-<div style="width:45px;height:45px;background:#ff9800;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:bold;">6</div>
-
-<div style="width:45px;height:45px;background:#2196f3;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:bold;">2</div>
-
-<div style="width:45px;height:45px;background:#2196f3;border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:bold;">1</div>
+<p>Strike Rate : 138.4</p>
 
 </div>
 
 </div>
 
-<footer style="text-align:center;padding:30px;background:#111;margin-top:40px;color:#aaa;">
+<h2 class="section-title">🎯 Current Bowler</h2>
 
-<h3>🏏 ZS Cricket Studio</h3>
+<div class="player-card single">
 
-<p>Live Cricket Scores | Commentary | Match Updates</p>
+<img src="https://placehold.co/180x180">
 
-<p>© 2026 ZS Cricket Studio. All Rights Reserved.</p>
+<h3>Jofra Archer</h3>
+
+<p>Overs : 3.2</p>
+
+<p>Wickets : 2</p>
+
+<p>Economy : 8.4</p>
+
+</div>
+
+<h2 class="section-title">🏏 Recent Over</h2>
+
+<div class="recent-over">
+
+<span>4</span>
+<span>1</span>
+<span>W</span>
+<span>6</span>
+<span>2</span>
+<span>.</span>
+
+</div>
+
+</div>
+
+<footer>
+
+© 2026 ZS Cricket Studio
 
 </footer>
+
+<script src="script.js"></script>
 
 </body>
 </html>
