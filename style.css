@@ -1,5 +1,12 @@
-111;
-    cor:white;
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background:#0d1117;
+    color:#ffffff;
     font-family:Arial,sans-serif;
 }
 
